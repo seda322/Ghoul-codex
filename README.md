@@ -29,10 +29,10 @@
 
 ---
 
-## 【 ★ 𝐖𝐀𝐓𝐂𝐇 𝐒𝐓𝐀𝐑𝐑𝐘 ★ 】
+## 【 ★ 𝐖𝐀𝐓𝐂𝐇 𝐒𝐓𝐀𝐑I𝐘 ★ 】
 Архивы Старого Бога
 
-Секция для изучения everlasting hate. Смотри реплеи Old God, учись у starry игрока. Вбирай в себя его mode, чтобы стать toxic мастером мидовой линии.
+Секция для изучения everlasting hate. Смотри реплеи Old God, учись у про игрока. Вбирай в себя его mode, чтобы стать toxic мастером мидовой линии.
 
 ---
 
@@ -44,11 +44,11 @@
 ---
 
 ## マク 𝐓𝐄𝐂𝐇 𝐒𝐓𝐀𝐂𝐊 クマ
-☠ HTML5 (Structure of Despair)
-☠ CSS3 (Visual Toxicity)
-☠ JavaScript (Logic of Chaos)
-☠ Python 3.12+ (Toxic snake)
-☠ Pure Agony
+- ☠ HTML5 (Structure of Despair)
+- ☠ CSS3 (Visual Toxicity)
+- ☠ JavaScript (Logic of Chaos)
+- ☠ Python 3.12+ (Toxic snake)
+- ☠ Pure Agony
 
 ---
 
@@ -61,7 +61,7 @@ git clone https://github.com/seda322/Ghoul-codex.git
 Если ты blessed или хочешь предложить свой контент:
 
 
----
+![ghoul2](https://99px.ru/sstorage/86/2015/05/image_862905152239312739653.gif)
 
 Пиши: zxc.ghoul@god.com
 Или просто кричи в void.
