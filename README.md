@@ -23,27 +23,24 @@
 
 人eternal despair人グ༒dying as a lifestyle༒グghoul hollow zxczxczxc
 
----
 
-## 【 ☠ 𝐑𝐀𝐍𝐃𝐎𝐌 𝐏𝐋𝐀𝐘 ☠ 】
+### 【 ☠ 𝐑𝐀𝐍𝐃𝐎𝐌 𝐏𝐋𝐀𝐘 ☠ 】
 ![ghoul4](https://64.media.tumblr.com/6acfb67fbe50e7c0e1d2f0990ca210ff/tumblr_pfvqt4qIVE1tgwehoo1_500.gifv)
 
 Рандомизатор судьбы для senseless игроков
 
 Хватит думать, пора страдать. Нажми кнопку — и скрипт выберет тебе героя и билд для Доты. Может выпасть pudge abuzer, а может white prince. Главное — довериться epileptic рандому и пустить tears победы или поражения.
 
----
 
-## 【 ★ 𝐖𝐀𝐓𝐂𝐇 𝐒𝐓𝐀𝐑I𝐘 ★ 】
+### 【 ★ 𝐖𝐀𝐓𝐂𝐇 𝐒𝐓𝐀𝐑I𝐘 ★ 】
 ![ghoul5](https://i.pinimg.com/originals/56/00/5a/56005a1acfe12d3df3e97c646d81b561.gif)
 
 Архивы Старого Бога
 
 Секция для изучения everlasting hate. Смотри реплеи Old God, учись у про игрока. Вбирай в себя его mode, чтобы стать toxic мастером мидовой линии.
 
----
 
-## 【 ⛥ 𝐋𝐄𝐀𝐑𝐍 𝐇𝐎𝐖 𝐓𝐎 𝐏𝐋𝐀𝐘 ⛥ 】
+### 【 ⛥ 𝐋𝐄𝐀𝐑𝐍 𝐇𝐎𝐖 𝐓𝐎 𝐏𝐋𝐀𝐘 ⛥ 】
 ![zxc](https://i.pinimg.com/originals/ef/de/03/efde03f2ca556f0344a885ec4a9a1e3c.gif)
 
 Библия Мидовника (В разработке)
