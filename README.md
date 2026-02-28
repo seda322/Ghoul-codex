@@ -74,5 +74,5 @@ git clone https://github.com/seda322/Ghoul-codex.git
 
 Пиши: zxc.ghoul@god.com
 Или просто кричи в void.
->„Stay toxic, stay ghoul.“
-© 2023 𝐙𝐗𝐂 𝐏𝐑𝐎𝐉𝐄𝐂𝐓𝐒. All rights reserved.
+> „Stay toxic, stay ghoul.“
+
