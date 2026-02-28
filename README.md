@@ -22,9 +22,9 @@
 
 Примеры генерации:
 
-人eternal despair人
-グ༒dying as a lifestyle༒グ
-ghoul hollow 
+--人eternal despair人
+--グ༒dying as a lifestyle༒グ
+--ghoul hollow 
 
 
 ### 【 ☠ 𝐑𝐀𝐍𝐃𝐎𝐌 𝐏𝐋𝐀𝐘 ☠ 】
