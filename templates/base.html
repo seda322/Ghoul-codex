@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}GhoulCodex{% endblock %}</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    {% block extra_css %}{% endblock %}
+</head>
+
+<body class="body">
+
+<header class="header">
+
+    <div class="header-left">
+        <div class="logo">
+            <img src="{{ url_for('static', filename='sprites/logo.gif') }}">
+        </div>
+
+        <nav class="nav">
+            <a href="/" class="nav-link">ZXC NICKNAMES</a>
+            <a href="/random" class="nav-link">RANDOM PLAY</a>
+            <a href="/stariy" class="nav-link">WATCH STARIY</a>
+            <a href="/htp" class="nav-link">LEARN HOW TO PLAY</a>
+            <div class="active-indicator"></div>
+        </nav>
+    </div>
+
+    <div class="account-block">
+        <a href="/account" class="user-link">
+            <svg class="user-icon" viewBox="0 0 24 24">
+                <path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 
+                         2.3-5 5 2.3 5 5 5zm0 2c-4.4 
+                         0-8 3.6-8 8h16c0-4.4-3.6-8-8-8z"/>
+            </svg>
+        </a>
+    </div>
+
+</header>
+
+{% block content %}{% endblock %}
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

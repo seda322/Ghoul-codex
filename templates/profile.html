@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/profile.css') }}">
+{% endblock %}
+
+<div class="register-wrapper">
+    <div class="profile-box">
+
+        <svg class="profile-icon" viewBox="0 0 24 24">
+            <path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 
+                     2.3-5 5 2.3 5 5 5zm0 2c-4.4 
+                     0-8 3.6-8 8h16c0-4.4-3.6-8-8-8z"/>
+        </svg>
+
+        <h2 class="profile-name">{{ username }}</h2>
+        <div class="profile-rank">{{ rank }}</div>
+
+        <a href="/logout" class="logout-btn">Выйти из аккаунта</a>
+
+    </div>
+</div>
+
+{% endblock %}
