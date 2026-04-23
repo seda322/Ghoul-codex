@@ -5,6 +5,44 @@
     <title>{% block title %}GhoulCodex{% endblock %}</title>
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    
+    <style>
+        @font-face {
+            font-family: 'Grimoire Of Death';
+            src: url("{{ url_for('static', filename='fonts/Faceless-MVmln.otf') }}") format('opentype');
+        }
+        
+        .site-main-title {
+            font-family: 'Grimoire Of Death', 'Times New Roman', serif;
+            font-size: 7rem;
+            text-align: center;
+            color: #ffffff;
+            text-shadow: 0 0 30px rgba(255, 255, 255, 0.9);
+            margin: 40px 0 30px 0;
+            letter-spacing: 16px;
+            animation: titleGlow 2s ease-in-out infinite alternate;
+            text-transform: uppercase;
+            line-height: 1.2;
+        }
+        
+        @keyframes titleGlow {
+            from {
+                text-shadow: 0 0 2.5px #ff0000, 0 0 8.5px #ff0000;
+            }
+            to {
+                text-shadow: 0 0 8.5px #ff0000, 0 0 12.5px #ff0000, 0 0 20px #cc0000;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .site-main-title {
+                font-size: 3.5rem;
+                margin: 30px 0 20px 0;
+                letter-spacing: 4px;
+            }
+        }
+    </style>
+    
     {% block extra_css %}{% endblock %}
 </head>
 
@@ -19,9 +57,9 @@
 
         <nav class="nav">
             <a href="/" class="nav-link">ZXC NICKNAMES</a>
-            <a href="/random" class="nav-link">RANDOM PLAY</a>
-            <a href="/stariy" class="nav-link">WATCH STARIY</a>
-            <a href="/htp" class="nav-link">LEARN HOW TO PLAY</a>
+            <a href="/random" class="nav-link">???</a>
+            <a href="/players" class="nav-link">WATCH GHOULS</a>
+            <a href="/htp" class="nav-link">???</a>
             <div class="active-indicator"></div>
         </nav>
     </div>

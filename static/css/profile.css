@@ -63,3 +63,7 @@ body::before {
     box-shadow:0 0 12px #ff7a00;
     transform:scale(1.05);
 }
+
+.profile-stats {
+    color:rgb(174, 173, 173);
+}
