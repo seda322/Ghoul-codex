@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Главная{% endblock %}
+
+{% block content %}
+<h1 class="site-main-title">TRUE GHOUL SITE</h1>
+
+<div class="generator-container">
+    <div class="hand-left">
+        <img src="{{ url_for('static', filename='sprites/left_hand.png') }}" alt="Left Hand">
+    </div>
+
+    <div class="generator-wrapper">
+        <div class="generator-overlay"></div>
+        <div class="generator-box">
+            <h1 id="nickname">Нажми GENERATE</h1>
+            <button id="generateBtn">GENERATE</button>
+        </div>
+    </div>
+
+    <div class="hand-right">
+        <img src="{{ url_for('static', filename='sprites/right_hand.png') }}" alt="Right Hand">
+    </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("generateBtn");
+    const nicknameText = document.getElementById("nickname");
+
+    btn.addEventListener("click", async function () {
+        try {
+            const response = await fetch("/generate_nick");
+            const data = await response.json();
+            nicknameText.innerText = data.nickname;
+        } catch (error) {
+            console.log("Ошибка генерации:", error);
+        }
+    });
+});
+</script>
+{% endblock %}

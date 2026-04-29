@@ -1,0 +1,352 @@
+@font-face {
+    font-family: 'Grimoire Of Death';
+    src: url('static\fonts\Faceless-MVmln.otf') format('opentype'); 
+}
+
+.site-title {
+    font-family: 'Grimoire Of Death', 'Times New Roman', serif;
+    font-size: 4rem;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 2.5px #ff0000, 0 0 5px #ff0000;
+    }
+    to {
+        text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 15px #ff0000;
+    }
+}
+
+.header {
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    background: linear-gradient(135deg, #0e0e0e, #1a1a1a);
+    border-bottom: 3px solid #0b0b0b;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.8);
+    font-family: 'Cinzel', serif;
+}
+
+.nav {
+    display: flex;
+    gap: 24px;
+    position: relative;
+}
+
+.nav-link {
+    color: #d4d4d4; 
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 12px 18px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    position: relative;
+    letter-spacing: 1px;
+    white-space: nowrap; 
+}
+
+.nav-link:hover {
+    color: #fff;
+    text-shadow: 0 0 8px #ffa500, 0 0 12px #ff4500;
+    /* border-color: rgba(255, 140, 0, 0.6); */
+}
+
+.nav-link.active {
+    color: #ffcc33;
+    text-shadow: 0 0 10px #ffcc33, 0 0 16px #ff8c00;
+}
+
+.active-indicator {
+    position: absolute;
+    bottom: -5px;
+    height: 4px;
+    background: linear-gradient(90deg, #ff4500, #ffa500, #ff4500);
+    border-radius: 2px;
+    transition: transform 0.4s ease, width 0.4s ease;
+    pointer-events: none;
+    opacity: 1;
+    visibility: visible;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.logo img {
+    height: 60px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 8px rgba(255, 140, 0, 0.6));
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 15px rgba(255, 165, 0, 0.9));
+}
+
+.body {
+    background-image: url("/static/sprites/Kaneki.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.user-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+}
+
+.user-icon {
+    width: 26px;
+    height: 26px;
+    fill: #ffffff;      
+    transition: 0.3s;
+}
+
+.user-link:hover .user-icon {
+    fill: #ff7a00; 
+    transform: scale(1.15);
+    filter: drop-shadow(0 0 8px rgba(255, 140, 0, 0.6));
+}
+
+.account-block {
+    display: flex;
+    align-items: center;
+}
+
+.user-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-icon {
+    width: 28px;
+    height: 28px;
+    fill: #ff7a00;
+    transition: 0.3s;
+}
+
+.user-link:hover .user-icon {
+    fill: white;
+    transform: scale(1.15);
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.profile-card {
+    text-align: center;
+}
+
+.profile-icon {
+    width: 70px;
+    height: 70px;
+    fill: white;
+    margin-bottom: 10px;
+}
+
+.profile-name {
+    color: #ff7a00;
+    font-size: 28px;
+    margin: 10px 0 5px;
+}
+
+.profile-rank {
+    color: #ccc;
+    font-size: 18px;
+}
+
+.nick-generator{
+    text-align:center;
+    margin-top:120px;
+}
+
+#generateBtn:hover{
+    box-shadow:0 0 20px #ff7a00;
+    transform:scale(1.08);
+}
+
+#generateBtn:hover {
+    box-shadow: 0 0 30px rgba(255, 144, 0, 0.8);
+    transform: scale(1.02);
+}
+
+.hand-left,
+.hand-right {
+    flex-shrink: 0;
+    width: 200px;
+    animation: handFloat 3s ease-in-out infinite;
+}
+
+.hand-left {
+    margin-right: 40px;
+}
+
+.hand-right {
+    margin-left: 40px;
+}
+
+.hand-left img,
+.hand-right img {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: drop-shadow(0 0 10px #ff910066);
+}
+
+@keyframes handFloat {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.generator-box {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    background: rgba(20, 20, 20);
+    border: 2px solid #ff910066;
+    width: 420px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    filter: drop-shadow(0 0 15px rgba(255, 144, 0, 0.5));
+}
+
+.generator-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    margin: auto;
+    max-width: 1200px;
+    padding: 0 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.generator-wrapper {
+    flex: 0 1 auto;
+    position: relative;
+    z-index: 2;
+}
+
+#nickname {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 38px;
+    text-shadow: 0 0 15px #ff7a00;
+    text-align: center;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+#generateBtn {
+    background: linear-gradient(135deg, #ff7a00 0%, #ffaa00 100%);
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(255, 144, 0, 0.5);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+#generateBtn:active {
+    transform: scale(0.95);
+}
+
+@media (max-width: 1024px) {
+    .hand-left,
+    .hand-right {
+        width: 150px;
+    }
+    
+    .generator-box {
+        padding: 30px;
+    }
+    
+    #nickname {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .generator-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .hand-left,
+    .hand-right {
+        width: 120px;
+        margin: 0;
+    }
+    
+    .hand-left {
+        transform-origin: center;
+    }
+    
+    .hand-right {
+        transform-origin: center;
+    }
+    
+    .generator-wrapper {
+        min-width: 300px;
+    }
+    
+    .generator-box {
+        padding: 20px;
+    }
+    
+    #nickname {
+        font-size: 1.5rem;
+        min-height: 60px;
+    }
+    
+    #generateBtn {
+        padding: 12px 30px;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hand-left,
+    .hand-right {
+        width: 100px;
+    }
+}

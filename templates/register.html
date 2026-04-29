@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/register.css') }}">
+{% endblock %}
+
+{% block title %}Register{% endblock %}
+
+{% block content %}
+<div class="register-wrapper">
+
+    <div class="register-box">
+        <h2>Регистрация</h2>
+
+        <form method="POST" action="/register_user">
+
+            <div class="input-group">
+                <input type="text" name="username" placeholder="Логин" required>
+            </div>
+
+            <div class="input-group">
+                <input type="password" name="password" placeholder="Пароль" required>
+            </div>
+
+            <button class="register-btn" type="submit">
+                Зарегистрироваться / Войти
+            </button>
+
+        </form>
+
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            <div style="color:#ff7a00; text-align:center; margin-top:15px;">
+              {% for msg in messages %}
+                <div>{{ msg }}</div>
+              {% endfor %}
+            </div>
+          {% endif %}
+        {% endwith %}
+    </div>
+
+</div>
+{% endblock %}
